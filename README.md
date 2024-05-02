@@ -2,12 +2,12 @@
 Se trata de um projeto de aprendizado para mostrar habilidades básicas em Figma, HTML e CSS.<br>
 Página desenvolvida em modo colaborativo.<br>
 ## Talentos participantes:<br>
-  * <a href="https://www.linkedin.com/in/fellype-soares-santos-moura-632a44232/ >Fellype Moura</a>
-  * <a href="https://www.linkedin.com/in/giuliana-ranieri-b79180304/ >Giuliana Ranieri</a>
-  * <a href="https://www.linkedin.com/in/jcjreletrotecnico/ >José Carlos Junior</a>
-  * <a href="https://www.linkedin.com/in/michelmathos/ >Michel Matoa</a>
+  * <a href="https://www.linkedin.com/in/fellype-soares-santos-moura-632a44232/">Fellype Moura</a>
+  * <a href="https://www.linkedin.com/in/giuliana-ranieri-b79180304/">Giuliana Ranieri</a>
+  * <a href="https://www.linkedin.com/in/jcjreletrotecnico/">José Carlos Junior</a>
+  * <a href="https://www.linkedin.com/in/michelmathos/">Michel Matoa</a>
 
-** Disponível para visualização <a href="https://michelmathos.github.io/paginasmartprotalents/">aqui</a>
+- Disponível para visualização <a href="https://michelmathos.github.io/paginasmartprotalents/">aqui</a>
 
 ## Desenvolvido com
 
