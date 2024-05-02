@@ -1,0 +1,37 @@
+TITULO
+
+Smart Pro Talents onde a excelência profissional é moldada 
+      #5EB6E9 codigo da cor azul usada
+
+
+
+Na Smart Pro Talents priorizamos o desenvolvimento de habilidades essenciais para o sucesso profissional. Nossa abordagem valoriza a ética,
+ a empatia e a resiliência, capacitando nossos talentos a lidar com desafios de forma construtiva. 
+Incentivamos a iniciativa, a inovação e o aprendizado contínuo, promovendo uma cultura de comunicação eficaz e trabalho em equipe.
+ Nossos programas enfatizam a resolução de problemas, a gestão de tempo e a adaptação às mudanças, cultivando uma mentalidade de coragem inteligente e uma vibração positiva.
+
+
+codigos ao lado do texto são as cores para usar o css
+
+Índole #7ED957                                         
+Empatia #00BF63
+Profissionalismo #004AAD
+Resiliência #5271FF
+Lidar com a pressão #38B6FF
+Iniciativa #5CE1E6
+Inovação #0CC0DF
+Auto aprendizado #0097B2
+Comunicação eficaz  #5E17EB
+
+
+
+
+Trabalho em equipe #5E17EB
+Resolução de problemas #0097B2
+Adaptabilidade #0CC0DF
+Pensamento crítico #38B6FF
+Estimativa de tempo #5271FF
+Gestão de tempo #004AAD
+Organização #00BF63
+Coragem inteligente #7ED957
+Vibração #8BEF61

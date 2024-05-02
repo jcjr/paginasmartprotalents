@@ -1,0 +1,467 @@
+/* Redefinição de margens e padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+/* Estilos para o envelope-1 */
+#envelope-1 {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: #ffffff;
+}
+
+/* Estilos para o cabeçalho */
+#cabecalho {
+  margin-top: 30px;
+  width: 1519px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+}
+
+/* Estilos para o logo-smart */
+#logo-smart {
+  grid-column: 1;
+  margin-right: 300px;
+  width: auto;
+}
+
+#logo-smart img {
+  margin-left: 80px;
+  width: 300px;
+  object-fit: cover;
+  object-position: 0px 1px;
+}
+
+/* Estilos para o menu */
+#menu {
+  display: flex;
+  align-items: center;
+  grid-column: 2;
+  margin-right: 10px;
+}
+
+nav ul {
+  margin-left: 150px;
+  padding: 0;
+  font-family: Arial Black;
+  font-size: 14px;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 50px; /* distância entre os elementos <li> */
+}
+
+nav a {
+  text-decoration: none;
+  color: #00B0F0;
+  font-weight: bold;
+  font-style: italic;
+}
+
+nav a:hover {
+  color: #1b44d7;
+}
+
+
+/* menu dropdown */
+.menu li {
+  color: #3FA0EB;
+
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  display: inline-block;
+  position: relative;
+}
+
+.menu ul li ul {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.menu ul li:hover ul {
+  display: block;
+}
+
+.menu ul li ul li {
+  display: block;
+}
+
+.menu ul li ul li a {
+  color: #3FA0EB;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.menu ul li ul li a:hover {
+  background-color: #ddd;
+}
+
+
+/* Estilos para o Container-1 */
+#parte-1 {
+  margin-top: 200px;
+  position: relative;
+}
+
+/* Estilos para a imagem */
+#banner img {
+  max-width: 100%;
+}
+
+#titulo-principal, #textos-apresentacao {
+  position: absolute;
+}
+
+#titulo-principal {
+  top: 20px;
+  font-family: Arial Black;
+  font-size: 45px;
+  color: #ffffff;
+}
+
+#titulo-principal strong {
+  color: #000000;
+}
+
+#alinhamento-textos-parte-1 {
+  margin-left: 120px;
+  color: #ffffff;
+}
+
+#apresentacao-1 {
+  margin-top: 250px;
+}
+
+#apresentacao-2 {
+  margin-top: 20px;
+}
+
+#apresentacao-1, #apresentacao-2{
+  font-size:25px;
+  margin-right: 750px;
+  text-align: justify;
+}
+
+/* Estilos para o container-2 */
+#container-2 {
+  margin-top: 10px;
+}
+
+#subtitulo-container-2 {
+  font-size: 40px;
+}
+
+#em-azul {
+  color: #00B0F0;
+}
+
+#container-2 img {
+  float: right;
+  margin-top: 10px;
+}
+
+#paragrafo-softskills {
+  margin-top: 30px;
+  margin-left: 60px;
+  text-align: justify;
+  font-size: 21px;
+  line-height:1.5;
+  width: 920px;
+}
+
+#circuito {
+  width: 600px;
+  margin-top: 1050px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+#circuito img{
+  max-width: 100%;
+}
+/* Estilos para a lista-softskills */
+#subtitulo-container-2, #lista-softskills, #paragrafo-softskills {
+  margin-left: 80px;
+}
+
+#lista-softskills {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+#indole {
+  color: #7ED957;
+}
+
+#empatia {
+  color: #00BF63;
+}
+
+#profissionalismo {
+  color: #004AAD;
+}
+
+#resiliencia {
+  color: #5271FF;
+}
+
+#pressao {
+  color: #38B6FF;
+}
+
+#iniciativa {
+  color: #5CE1E6;
+}
+
+#inovacao {
+  color: #0CC0DF;
+}
+
+#aprendizado {
+  color: #0097B2;
+}
+
+#comunicacao {
+  color: #5E17EB;
+}
+
+#equipe {
+  color: #5E17EB;
+}
+
+#problemas {
+  color: #0097B2;
+}
+
+#adaptabilidade {
+  color: #0CC0DF;
+}
+
+#pensamento {
+  color: #38B6FF;
+}
+
+#estimativa {
+  color: #5271FF;
+}
+
+#gestao {
+  color: #004AAD;
+}
+
+#organizacao {
+  color: #00BF63;
+}
+
+#coragem {
+  color: #7ED957;
+}
+
+#vibracao {
+  color: #8BEF61;
+}
+
+/* Estilos para a lista-esquerda e lista-direita */
+#lista-esquerda, #lista-direita {
+  margin-right: 10px;
+  margin-top: 80px;
+}
+
+/* Estilos para a lista-direita */
+#lista-direita {
+  position: absolute;
+  margin-left: 500px;
+}
+
+/* Estilos para a lista-direita e paragrafo-softskills */
+#lista-softskills {
+  font-size: 24px;
+}
+
+/* Estilos para o container-3 */
+#container-3 {
+  margin-top: 50px;
+  height:800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap:0px;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+/* Estilos para o fundador-1 */
+#fundador-1 {
+  grid-column: 1 / 2;
+  position: absolute;
+  margin-left: 130px;
+}
+
+#paragrafo-1-ceo, #paragrafo-2-ceo, #paragrafo-feitos {
+  border-radius: 50px;
+  padding: 20px;
+  background-color: #3FA0EB;
+  color: #ffffff;
+  font-size: 18px;
+  text-align: justify;
+  width: 400px;
+  height: auto;
+}
+
+#paragrafo-2-ceo {
+  margin-top: 50px;
+}
+
+
+/* Estilos para o fundador-2 */
+#fundador-2 {
+  grid-column: 3 / 3;
+  position: absolute;
+  z-index: 1;
+}
+
+/* Estilos para a figura (imagem) */
+#img-fundador {
+  width: 600px;
+  grid-column: 2 / 3;
+  justify-self: center;
+  z-index: -1;
+}
+#img-fundador img{
+  width: 100%;
+  margin-left:30px ;
+}
+
+/* Estilos do rodapé */
+#parceirostexto {
+  font-size: 30px;
+  font-weight: bold ;
+  text-align: center;
+  margin-left: 100px;
+}
+
+#parceiros {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#parceiros img {
+  max-width: 70%;
+  height: auto;
+  margin-left:70px;
+}
+
+.rodape-container {
+  margin-top: 50px;
+  padding-top: 30px;
+  background-color: #001e32; 
+  width: 100%;
+}
+
+.rodape {
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.coluna-1 {
+  flex: 1;
+  text-align: center;
+  height: 220px;
+}
+
+.coluna-1 img {
+  width: 50%;
+}
+
+.coluna-2 {
+  flex: 1;
+  text-align: center;
+  height: 220px;
+}
+
+.titulo-redes-sociais{
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.coluna-3 {
+  flex: 1;
+  text-align: center;
+  height: 220px;
+}
+.contatos {
+  margin-bottom: 20px;
+  margin-top: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.redes-sociais {
+  color: #fff;
+  list-style: none;
+}
+
+.redes-sociais li {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.redes-sociais a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.redes-sociais a:hover {
+  text-decoration: underline;
+}
+
+.email_tel {
+  color: #fff;
+  list-style: none;
+  padding: 0;
+}
+
+.email_tel li {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+.email_tel a {
+  color: #fff;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.email_tel a:hover {
+  text-decoration: underline;
+}
